@@ -1,0 +1,483 @@
+
+
+
+/* A special thank you to Nagy Osama and Ahmed Yassein
+   for their guidance, support, and valuable knowledge. 😄🫶🏻  */
+
+
+
+
+
+
+/* Personal Portfolio Website */
+
+
+/* CSS Styling and Layout */
+
+
+* {
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+
+/* General Page Style */
+
+body {
+    background: #0B142B;
+    color: lightblue;
+    font-family: "Times New Roman", serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+
+
+/* Header Section */
+
+#header {
+    background: #142544;
+    color: lightblue;
+    width: 80%;
+    height: auto;
+    padding: 20px;
+    border: 2px solid lightblue;
+    margin: 0 auto;
+    border-radius: 15px;
+    text-align: center;
+}
+
+
+#navigation {
+    background: #142544;
+    color: lightblue;
+    width: 100%;
+    height: auto;
+    padding: 8px 4px;
+    border: none;
+    border-radius: 0;
+    text-align: center;
+}
+
+
+#navigation a {
+    color: lightblue;
+    display: inline-block;
+    width: auto;
+    height: auto;
+    padding: 6px;
+    border: 2px solid lightblue;
+    border-radius: 10px;
+    margin: 3px 1px;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+/* Main Sections */
+
+#about,
+#skills,
+#experience,
+#education,
+#certifications,
+#projects,
+#contact {
+    background: #142544;
+    color: lightblue;
+    width: 80%;
+    height: auto;
+    padding: 20px;
+    border: 2px solid lightblue;
+    border-radius: 15px;
+    margin: 20px auto;
+}
+
+
+
+
+
+
+
+/* About Me Section */
+
+#about-content {
+    width: 100%;
+    height: auto;
+}
+
+
+#profile-image {
+    float: left;
+    width: 110px;
+    height: 110px;
+    border: 3px solid lightblue;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+
+#about-text {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+}
+
+
+#about-text .highlight {
+    color: #fcc546;
+}
+
+
+#about-text a {
+    color: lightblue;
+    display: inline-block;
+    width: auto;
+    height: auto;
+    padding: 10px 15px;
+    border: 2px solid lightblue;
+    border-radius: 10px;
+    margin: 10px 0;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+/* Skills Section */
+
+#skills {
+    text-align: center;
+}
+
+
+.Myskills {
+    background: #0B142B;
+    color: lightblue;
+    display: inline-block;
+    width: 25%;
+    height: auto;
+    padding: 10px;
+    border: 2px solid lightblue;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+
+
+
+
+
+
+/* Experience Section */
+
+#experience-content {
+    width: 100%;
+    height: auto;
+}
+
+
+.job {
+    background: #0B142B;
+    color: lightblue;
+    float: left;
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    border: 2px solid lightblue;
+    border-left: 4px solid lightblue;
+    border-radius: 10px;
+    margin: 15px 0;
+}
+
+
+.job img {
+    float: left;
+    width: 55px;
+    height: 55px;
+    border: 2px solid lightblue;
+    border-radius: 10px;
+    margin: 5px 15px 5px 5px;
+}
+
+
+.job-info {
+    width: auto;
+    height: auto;
+}
+
+
+.job-info h3,
+.job-info h4,
+.job-info p {
+    color: lightblue;
+}
+
+
+
+
+
+
+
+/* Education Section */
+
+#education-content {
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+
+.university {
+    background: #0B142B;
+    color: lightblue;
+    display: inline-block;
+    width: 38%;
+    height: auto;
+    padding: 10px;
+    border: 2px solid lightblue;
+    border-radius: 10px;
+    margin: 10px 1%;
+    text-align: left;
+}
+
+
+.university img {
+    width: 80%;
+    max-width: 100%;
+    height: auto;
+    border: 2px solid lightblue;
+    border-radius: 10px;
+    display: block;
+    margin: 10px auto;
+}
+
+
+
+
+
+
+
+/* Certifications Section */
+
+#certifications-content {
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+
+.certificate {
+    background: #0B142B;
+    color: lightblue;
+    display: inline-block;
+    width: 28%;
+    height: auto;
+    padding: 10px;
+    border: 2px solid lightblue;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+
+
+
+
+
+
+/* Projects Section */
+
+#projects-content {
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+
+.project {
+    background: #0B142B;
+    color: lightblue;
+    float: left;
+    width: 30%;
+    height: 500px;
+    padding: 10px;
+    border: 2px solid lightblue;
+    border-radius: 10px;
+    margin: 1.5%;
+}
+
+
+.project img {
+    width: 90%;
+    max-width: 100%;
+    height: auto;
+    border: 2px solid lightblue;
+    border-radius: 10px;
+    display: block;
+    margin: 10px auto;
+}
+
+
+
+
+
+
+
+/* Contact Section */
+
+#contact a {
+    color: lightblue;
+    display: inline-block;
+    width: auto;
+    height: auto;
+    padding: 10px 15px;
+    border: 2px solid lightblue;
+    border-radius: 10px;
+    margin: 5px;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+/* Footer Section */
+
+#footer {
+    background: #08182F;
+    color: lightblue;
+    width: 80%;
+    height: auto;
+    padding: 20px;
+    border: 2px solid lightblue;
+    border-radius: 15px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+
+
+
+
+
+
+/* Section Headings */
+
+.section h2 {
+    border-bottom: 2px solid lightblue;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+
+#about::after,
+#experience::after,
+#education::after,
+#certifications::after,
+#projects::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+
+
+
+
+
+
+/* Mobile Layout */
+
+@media (max-width: 700px) {
+
+    #header,
+    #about,
+    #skills,
+    #experience,
+    #education,
+    #certifications,
+    #projects,
+    #contact,
+    #footer {
+        width: 95%;
+        padding: 12px;
+    }
+
+
+    .Myskills,
+    .university,
+    .certificate {
+        display: block;
+        width: 100%;
+        height: auto;
+        margin: 10px 0;
+    }
+
+
+    .project {
+        display: block;
+        width: 100%;
+        height: auto;
+        margin: 10px 0;
+    }
+
+
+    .job {
+        width: 100%;
+    }
+
+
+    #about-text {
+        width: 100%;
+    }
+
+
+    #navigation {
+        padding: 8px 4px;
+    }
+
+
+    #navigation a {
+        padding: 6px;
+        margin: 3px 1px;
+    }
+
+
+    #profile-image {
+        width: 90px;
+        height: 90px;
+    }
+
+
+    .university img,
+    .project img {
+        width: 90%;
+    }
+
+}
+
+
+
+
+
+/* A special thank you to Nagy Osama and Ahmed Yassein
+   for their guidance, support, and valuable knowledge. 😄🫶🏻 */
+
+
